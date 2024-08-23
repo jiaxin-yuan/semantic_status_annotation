@@ -1,0 +1,18 @@
+{
+  "assign seriousness": {"seriousness": "assigned"}, 
+  "take in charge ticket": {"ticket": "handled"}, 
+  "resolve ticket": {"ticket": "resolved"}, 
+  "closed": {"ticket": "closed"},
+  "insert ticket": {"ticket": "inserted"}, 
+  "wait": {"ticket": "wait"},
+  "create sw anomaly": {"anomaly": "created"}, 
+  "require upgrade": {"upgrade": "required"}, 
+  "verified": {"ticket": "verified"},
+  "duplicate": {"ticket": "duplicate"},
+  "resolve sw anomaly": {"anomaly": "resolved"},
+  "schedule intervention": {"intervention": "scheduled"},
+  "resolved": {"ticket": "resolved"},
+  "invalid": {"ticket": "invalid"}
+
+}
+

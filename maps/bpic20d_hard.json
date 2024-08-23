@@ -1,0 +1,20 @@
+{
+  "declaration submitted by employee": {"declaration":"submitted"},
+  "declaration final_approved by supervisor": {"declaration": "final_approved"},
+  "request payment": {"payment": "request"},
+  "payment handled": {"payment": "handled"},
+  "declaration approved by pre_approver": {"declaration": "approved"},
+  "declaration rejected by missing": {"declaration": "rejected"},
+  "declaration rejected by pre_approver": {"declaration":"rejected"},
+  "declaration rejected by employee": {"declaration": "rejected"},
+  "declaration saved by employee": {"declaration": "saved"},
+  "declaration rejected by supervisor": {"declaration": "rejected"},
+  "declaration approved by administration": {"declaration": "approved"},
+  "declaration approved by budget owner": {"declaration": "approved"},
+  "declaration for_approval by supervisor": {"declaration": "for_approval"},
+  "declaration rejected by administration": {"declaration": "rejected"},
+  "declaration for_approval by pre_approver": {"declaration": "for_approval"},
+  "declaration rejected by budget owner": {"declaration": "rejected"},
+  "declaration for_approval by administration": {"declaration": "for_approval"}
+}
+

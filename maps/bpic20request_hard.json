@@ -1,0 +1,23 @@
+{
+  "request for payment submitted by employee": {"request": "submitted"},
+  "request for payment final_approved by supervisor": {"request": "final_approved"},
+  "request for payment rejected by missing": {"request": "rejected"},
+  "request for payment approved by pre_approver": {"request": "approved"},
+  "request payment": {"payment": "request"},
+  "payment handled": {"payment": "handled"},
+  "request for payment rejected by supervisor": {"request": "rejected"},
+  "request for payment rejected by employee": {"request": "rejected"},
+  "request for payment approved by supervisor": {"request": "approved"},
+  "request for payment final_approved by director": {"request": "final_approved"},
+  "request for payment rejected by pre_approver": {"request": "rejected"},
+  "request for payment saved by employee": {"request": "saved"},
+  "request for payment rejected by administration": {"request": "rejected"},
+  "request for payment approved by administration": {"request": "approved"},
+  "request for payment approved by budget owner": {"request": "approved"},
+  "request for payment rejected by budget owner": {"request": "rejected"},
+  "request for payment for_approval by administration": {"request": "for_approval"} ,
+  "request for payment final_approved by budget owner": {"request": "final_approved"},
+  "request for payment for_approval by supervisor": {"request": "for_approval"}
+
+}
+

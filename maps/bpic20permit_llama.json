@@ -1,0 +1,198 @@
+{
+    "declaration approved by budget owner": {
+        "declaration": "approved",
+        "budget owner": "approved"
+    },
+    "request for payment final_approved by director": {
+        "request for payment": "final_approved",
+        "director": "final_approved"
+    },
+    "declaration rejected by budget owner": {
+        "declaration": "rejected",
+        "budget owner": "rejected"
+    },
+    "declaration submitted by employee": {
+        "declaration": "submitted",
+        "employee": "submitted"
+    },
+    "request for payment final_approved by supervisor": {
+        "request for payment": "final_approved",
+        "supervisor": "final_approved"
+    },
+    "declaration saved by employee": {
+        "declaration": "saved",
+        "employee": "saved"
+    },
+    "permit saved by employee": {
+        "permit": "saved",
+        "employee": "saved"
+    },
+    "declaration approved by administration": {
+        "declaration": "approved",
+        "administration": "approved"
+    },
+    "permit approved by supervisor": {
+        "permit": "approved",
+        "supervisor": "approved"
+    },
+    "payment handled": {
+        "payment": "handled"
+    },
+    "request for payment rejected by pre_approver": {
+        "request for payment": "rejected",
+        "pre_approver": "rejected"
+    },
+    "permit rejected by pre_approver": {
+        "permit": "rejected",
+        "pre_approver": "rejected"
+    },
+    "request for payment approved by pre_approver": {
+        "request for payment": "approved",
+        "pre_approver": "approved"
+    },
+    "permit rejected by supervisor": {
+        "permit": "rejected",
+        "supervisor": "rejected"
+    },
+    "permit rejected by budget owner": {
+        "permit": "rejected",
+        "budget owner": "rejected"
+    },
+    "request for payment rejected by supervisor": {
+        "request for payment": "rejected",
+        "supervisor": "rejected"
+    },
+    "permit rejected by missing": {
+        "permit": "rejected",
+        "missing": "rejected"
+    },
+    "request for payment rejected by administration": {
+        "request for payment": "rejected",
+        "administration": "rejected"
+    },
+    "request for payment rejected by missing": {
+        "request for payment": "rejected",
+        "missing": "rejected"
+    },
+    "request for payment submitted by employee": {
+        "request for payment": "submitted",
+        "employee": "submitted"
+    },
+    "declaration approved by pre_approver": {
+        "declaration": "approved",
+        "pre_approver": "approved"
+    },
+    "declaration rejected by supervisor": {
+        "declaration": "rejected",
+        "supervisor": "rejected"
+    },
+    "request for payment approved by budget owner": {
+        "request for payment": "approved",
+        "budget owner": "approved"
+    },
+    "declaration rejected by employee": {
+        "declaration": "rejected",
+        "employee": "rejected"
+    },
+    "declaration final_approved by supervisor": {
+        "declaration": "final_approved",
+        "supervisor": "final_approved"
+    },
+    "declaration final_approved by director": {
+        "declaration": "final_approved",
+        "director": "final_approved"
+    },
+    "permit submitted by employee": {
+        "permit": "submitted",
+        "employee": "submitted"
+    },
+    "request payment": {
+        "request": "payment"
+    },
+    "request for payment rejected by employee": {
+        "request for payment": "rejected",
+        "employee": "rejected"
+    },
+    "send reminder": {
+        "reminder": "send"
+    },
+    "permit approved by budget owner": {
+        "permit": "approved",
+        "budget owner": "approved"
+    },
+    "declaration rejected by administration": {
+        "declaration": "rejected",
+        "administration": "rejected"
+    },
+    "permit final_approved by director": {
+        "permit": "final_approved",
+        "director": "final_approved"
+    },
+    "permit for_approval by administration": {
+        "permit": "for_approval",
+        "administration": "for_approval"
+    },
+    "permit rejected by employee": {
+        "permit": "rejected",
+        "employee": "rejected"
+    },
+    "permit approved by administration": {
+        "permit": "approved",
+        "administration": "approved"
+    },
+    "request for payment approved by administration": {
+        "request for payment": "approved",
+        "administration": "approved"
+    },
+    "declaration rejected by director": {
+        "declaration": "rejected",
+        "director": "rejected"
+    },
+    "end trip": {
+        "trip": "end"
+    },
+    "start trip": {
+        "trip": "start"
+    },
+    "permit approved by pre_approver": {
+        "permit": "approved",
+        "pre_approver": "approved"
+    },
+    "request for payment saved by employee": {
+        "request for payment": "saved",
+        "employee": "saved"
+    },
+    "declaration approved by supervisor": {
+        "declaration": "approved",
+        "supervisor": "approved"
+    },
+    "permit final_approved by supervisor": {
+        "permit": "final_approved",
+        "supervisor": "final_approved"
+    },
+    "request for payment rejected by budget owner": {
+        "request for payment": "rejected",
+        "budget owner": "rejected"
+    },
+    "permit rejected by administration": {
+        "permit": "rejected",
+        "administration": "rejected"
+    },
+    "permit rejected by director": {
+        "permit": "rejected",
+        "director": "rejected"
+    },
+    "permit for_approval by supervisor": {
+        "permit": "for_approval",
+        "supervisor": "for_approval"
+    },
+    "declaration rejected by missing": {
+        "declaration": "rejected",
+        "missing": "rejected"
+    },
+    "request for payment approved by supervisor": {
+        "request for payment": "approved",
+        "supervisor": "approved"
+    },
+    "declaration rejected by pre_approver": {"declaration": "rejected"}
+}

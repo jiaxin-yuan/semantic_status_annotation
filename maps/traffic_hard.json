@@ -1,0 +1,12 @@
+{
+  "Send Fine": {"fine":"sent"},
+  "Appeal to Judge": {"appeal": "judge"},
+  "Insert Date Appeal to Prefecture": {"appeal": "dated"},
+  "Payment": {"payment": "conducted"},
+  "Send Appeal to Prefecture": {"appeal": "prefecture"},
+  "Insert Fine Notification": {"fine": "notified"},
+  "Receive Result Appeal from Prefecture": {"result":"received"},
+  "Create Fine": {"fine": "created"},
+  "Add penalty": {"penalty": "added"},
+  "Notify Result Appeal to Offender": {"result": "notified"}
+}

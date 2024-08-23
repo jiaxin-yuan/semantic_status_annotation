@@ -1,0 +1,87 @@
+{
+    "permit rejected by budget owner": {
+        "permit": "rejected"
+    },
+    "request for payment rejected by pre_approver": {
+        "request": "rejected"
+    },
+    "permit rejected by pre_approver": {
+        "permit": "rejected"
+    },
+    "request for payment rejected by budget owner": {
+        "request": "rejected"
+    },
+    "request for payment approved by pre_approver": {
+        "request": "approved"
+    },
+    "request for payment approved by budget owner": {
+        "request": "approved"
+    },
+    "request for payment rejected by employee": {
+        "request": "rejected"
+    },
+    "permit approved by administration": {
+        "permit": "approved"
+    },
+    "payment handled": {
+        "payment": "handled"
+    },
+    "request for payment final_approved by director": {
+        "request": "final_approved"
+    },
+    "permit final_approved by supervisor": {
+        "permit": "final_approved"
+    },
+    "request for payment rejected by missing": {
+        "request": "rejected"
+    },
+    "permit rejected by missing": {
+        "permit": "rejected"
+    },
+    "permit submitted by employee": {
+        "permit": "submitted"
+    },
+    "permit approved by budget owner": {
+        "permit": "approved"
+    },
+    "request payment": {
+        "request": "payment"
+    },
+    "permit final_approved by director": {
+        "permit": "final_approved"
+    },
+    "permit rejected by administration": {
+        "permit": "rejected"
+    },
+    "request for payment rejected by supervisor": {
+        "request": "rejected"
+    },
+    "request for payment approved by administration": {
+        "request": "approved"
+    },
+    "request for payment submitted by employee": {
+        "request": "submitted"
+    },
+    "permit rejected by employee": {
+        "permit": "rejected"
+    },
+    "request for payment rejected by administration": {
+        "request": "rejected"
+    },
+    "permit rejected by supervisor": {
+        "permit": "rejected"
+    },
+    "request for payment final_approved by supervisor": {
+        "request": "final_approved"
+    },
+    "permit approved by supervisor": {
+        "permit": "approved"
+    },
+    "request for payment approved by supervisor": {
+        "request": "approved"
+    },
+    "request for payment saved by employee": {
+        "request": "saved"
+    },
+    "permit approved by pre_approver": {"permit": "approved"}
+}

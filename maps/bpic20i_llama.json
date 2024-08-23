@@ -1,0 +1,104 @@
+{
+    "declaration approved by budget owner": {
+        "declaration": "approved"
+    },
+    "permit approved by supervisor": {
+        "permit": "approved"
+    },
+    "permit rejected by supervisor": {
+        "permit": "rejected"
+    },
+    "declaration submitted by employee": {
+        "declaration": "submitted"
+    },
+    "request payment": {
+        "request": "payment"
+    },
+    "payment handled": {
+        "payment": "handled"
+    },
+    "declaration rejected by missing": {
+        "declaration": "rejected"
+    },
+    "permit approved by budget owner": {
+        "permit": "approved"
+    },
+    "declaration rejected by supervisor": {
+        "declaration": "rejected"
+    },
+    "permit submitted by employee": {
+        "permit": "submitted"
+    },
+    "permit rejected by budget owner": {
+        "permit": "rejected"
+    },
+    "permit approved by pre_approver": {
+        "permit": "approved"
+    },
+    "declaration approved by pre_approver": {
+        "declaration": "approved"
+    },
+    "send reminder": {
+        "reminder": "send"
+    },
+    "permit rejected by pre_approver": {
+        "permit": "rejected"
+    },
+    "declaration rejected by administration": {
+        "declaration": "rejected"
+    },
+    "permit rejected by missing": {
+        "permit": "rejected"
+    },
+    "permit rejected by director": {
+        "permit": "rejected"
+    },
+    "declaration rejected by employee": {
+        "declaration": "rejected"
+    },
+    "permit rejected by administration": {
+        "permit": "rejected"
+    },
+    "permit final_approved by director": {
+        "permit": "final_approved"
+    },
+    "declaration final_approved by director": {
+        "declaration": "final_approved"
+    },
+    "permit rejected by employee": {
+        "permit": "rejected"
+    },
+    "declaration final_approved by supervisor": {
+        "declaration": "final_approved"
+    },
+    "start trip": {
+        "trip": "start"
+    },
+    "declaration rejected by director": {
+        "declaration": "rejected"
+    },
+    "declaration saved by employee": {
+        "declaration": "saved"
+    },
+    "declaration rejected by pre_approver": {
+        "declaration": "rejected"
+    },
+    "end trip": {
+        "trip": "end"
+    },
+    "permit approved by administration": {
+        "permit": "approved"
+    },
+    "permit final_approved by supervisor": {
+        "permit": "final_approved"
+    },
+    "declaration rejected by budget owner": {
+        "declaration": "rejected"
+    },
+    "declaration approved by supervisor": {
+        "declaration": "approved"
+    },
+    "declaration approved by administration": {
+        "declaration": "approved"
+    }
+}
