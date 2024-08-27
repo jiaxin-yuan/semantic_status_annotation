@@ -13,11 +13,10 @@ def extract_inner_keys(d, inner_keys=None):
     return inner_keys
 
 def replace_bpic2017(text):
-    # 替换模式
     text = re.sub(r'W_', 'workflow: ', text)
     text = re.sub(r'A_', 'application: ', text)
     text = re.sub(r'O_', 'offer: ', text)
-    text = re.sub(r'\(|\)', '', text)  # 去除括号
+    text = re.sub(r'\(|\)', '', text)  
     text = re.sub(r'\s+', ' ', text).strip()
     return text
 
@@ -62,15 +61,6 @@ def apply_mapping(group, bos, mappings):
     return group
 
 
-# def combine_semantics(log, data_name):
-#     #for each log, collect and combine relevant semantic features
-#     if "bpic2017" in data_name:
-#         log['actact'] = log['Activity'] + ' ' + log['Action']
-#         log['Activity'] = log['actact'].apply(replace_bpic2017)
-#
-#     return log
-
-
 def mark_next_activity(group):
     # mark next activity for each group
     group = group.sort_values(by='event_nr').reset_index(drop=True)
@@ -96,7 +86,7 @@ def gen_prefix_data(data, min_length, max_length, gap=1):
         end_index_list = []
         label_list = []
 
-        for _ in range(10):  # 为每个 Case ID 生成 10 个不同的prefix
+        for _ in range(10): 
             # start_index = np.random.randint(0, n-1)
             end_index = np.random.randint(1, n)
             start_index = end_index - max_features
@@ -117,15 +107,12 @@ def gen_prefix_data(data, min_length, max_length, gap=1):
         new_df['label'] = label_list
 
         for i in range(max_features):
-            col_name = f'act_{i + 1}'  # 列名
+            col_name = f'act_{i + 1}'  
             new_df[col_name] = [subseq[i] for subseq in subseq_list]
 
         return new_df
 
-    #删除只有一个activity的组
     data = data.groupby('Case ID').filter(filter_groups)
-
-    # 对每个 Case ID 生成特征
     new_df = data.groupby('Case ID').apply(lambda x: generate_features(x, max_length)).reset_index(level=0, drop=True).reset_index()
 
 
@@ -152,7 +139,7 @@ def gen_oop_prefix_data(data, min_length, max_length, gap=1):
         subseq_list = []
         end_index_list = []
 
-        for _ in range(10):  # 为每个 Case ID 生成 10 个不同的prefix
+        for _ in range(10): 
             # start_index = np.random.randint(0, n-1)
             end_index = np.random.randint(1, n)
             start_index = end_index - max_features
@@ -173,15 +160,12 @@ def gen_oop_prefix_data(data, min_length, max_length, gap=1):
 
 
         for i in range(max_features):
-            col_name = f'act_{i + 1}'  # 列名
+            col_name = f'act_{i + 1}'  
             new_df[col_name] = [subseq[i] for subseq in subseq_list]
 
         return new_df
 
-    #删除只有一个activity的组
     data = data.groupby('Case ID').filter(filter_groups)
-
-    # 对每个 Case ID 生成特征
     new_df = data.groupby('Case ID').apply(lambda x: generate_features(x, max_length)).reset_index(level=0, drop=True).reset_index()
 
     return new_df
@@ -209,13 +193,10 @@ def gen_agg(data, min_length, max_length, categorical_features):
     result_df = pd.DataFrame()
 
     for case_id, group in data.groupby('Case ID'):
-        # 按event_nr排序
+       
         group = group.sort_values('event_nr')
-
-        # 过滤event_nr在min_length和max_length之间的行
         group = group[group['event_nr'] < max_length]
 
-        # 计算每个分类特征在当前行以前出现的频率
         for feature in categorical_features:
             for value in group[feature].unique():
                 new_col_name = f'{feature}_{value}_count'
@@ -228,7 +209,6 @@ def gen_agg(data, min_length, max_length, categorical_features):
         group['nap_label'] = group['Activity'].shift(-1)
         group['nap_label'] = group['nap_label'].fillna("end")
 
-        # 将结果附加到result_df
         result_df = pd.concat([result_df, group], ignore_index=True)
     result_df.fillna(0, inplace=True)
 
@@ -262,7 +242,7 @@ def gen_order(data, min_length, max_length, categorical_features):
         group['nap_label'] = group['Activity'].shift(-1)
         group['nap_label'] = group['nap_label'].fillna("end")
 
-        # 将结果附加到result_df
+    
         result_df = pd.concat([result_df, group], ignore_index=True)
     result_df.fillna(0, inplace=True)
 
