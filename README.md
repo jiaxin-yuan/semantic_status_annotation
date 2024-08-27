@@ -4,7 +4,7 @@ This repository contains the scripts and annotated data as described in the pape
 
 ## Data
 
-Log Production is provided in the repository. The remaining can be found in this link:  [logs](https://drive.google.com/file/d/1-6V15CUAsTxVFM2_5H58IBf3HWHEfTIK/view?usp=sharing). 
+Log "Production" is provided in the repository. The remaining logs can be found in this link:  [logs](https://drive.google.com/file/d/1-6V15CUAsTxVFM2_5H58IBf3HWHEfTIK/view?usp=sharing)
 
 Each log is annotated in 3 ways. 
 - w/o semantics
@@ -14,7 +14,7 @@ Each log is annotated in 3 ways.
 ## Requirements
 
 - Python 3.x+
-- Required libraries or dependencies
+- Required dependencies can be installed using conda
   
     ```bash
     conda env create -f environment.yml
@@ -25,7 +25,7 @@ Each log is annotated in 3 ways.
 ## Run the experiment
 
 1. Download annotated datasets from the link provided before
-2. Place the datasets into the 'data/' folder
+2. Place the datasets into the 'datas/' folder
 3. Run following code, replacing the parameters (as described below):
    
 ```bash
@@ -33,11 +33,11 @@ python main.py pattern lm_model data_name
 ```
 
 ### parameters
-- pattern: The way to extract business objects and statuses, either "hard" or "llm"'
+- pattern: The way to extract business objects and statuses, either "hard" or "llm"
 - lm_model: The huggingface language model to use (e.g. "meta-llama/Meta-Llama-3-8B")
 - data_name: The dataset to use (e.g. "production")
 
-For instance, 
+For instance: 
 ```bash
 python main.py hard meta-llama/Meta-Llama-3-8B production
 ```
