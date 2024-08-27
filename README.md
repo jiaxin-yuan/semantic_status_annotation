@@ -32,12 +32,12 @@ Each log is annotated in 3 ways.
 python main.py pattern lm_model data_name
 ```
 
-###parameters
+### parameters
 - pattern: The way to extract business objects and statuses, either "hard" or "llm"'
 - lm_model: The huggingface language model to use (e.g. "meta-llama/Meta-Llama-3-8B")
 - data_name: The dataset to use (e.g. "production")
 
-e.g. 
+For instance, 
 ```bash
 python main.py hard meta-llama/Meta-Llama-3-8B production
 ```
