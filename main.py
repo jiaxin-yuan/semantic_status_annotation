@@ -366,7 +366,7 @@ if __name__ == '__main__':
     parser.add_argument('lm_model', help='The huggingface language model to use (e.g. "meta-llama/Meta-Llama-3-8B")')
     parser.add_argument('data_name', choices=DATAS, help='The dataset to use (e.g. "production")')
     args = parser.parse_args()
-    # semantic_extraction_llm(lm_model="meta-llama/Meta-Llama-3-8B", data_name="production")  #You need a GPU with at least 16GB of VRAM and 16GB of system RAM to run Llama 3-8B
+    semantic_extraction_llm(lm_model="meta-llama/Meta-Llama-3-8B", data_name="production")  #You need a GPU with at least 16GB of VRAM and 16GB of system RAM to run Llama 3-8B
     semantic_annotation(data_name="production", pattern="hard")
     predict(task="oop", ori=False, state=False, pattern="hard")
 
