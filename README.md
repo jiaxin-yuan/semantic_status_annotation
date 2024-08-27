@@ -37,7 +37,8 @@ python main.py pattern lm_model data_name
 - lm_model: The huggingface language model to use (e.g. "meta-llama/Meta-Llama-3-8B")
 - data_name: The dataset to use (e.g. "production")
 
-e.g. ```bash
+e.g. 
+```bash
 python main.py hard meta-llama/Meta-Llama-3-8B production
 ```
 
